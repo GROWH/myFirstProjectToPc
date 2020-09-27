@@ -1,0 +1,182 @@
+@charset "utf-8";
+.box{
+    width: 100%;
+    height: 790px;
+}
+/* 页面logo开始 */
+.logo{
+    width: 1190px;
+    height: 76px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.logo a{
+    display: inline-block;
+    width: 200px;
+    height: 76px;
+    background: url(../images/login.png) no-repeat ;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.logo span{
+    display: inline-block;
+    width: 1px;
+    height: 40px;
+    background-color: #e8e8e8;;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo b{
+    display: inline-block;
+    font-size: 22px;
+    color: #515151;
+    padding-top: 5px;
+}
+/* 页面中心注册开始 */
+.beijing{
+    width: 100%;
+    height: 520px;
+    background-color: #f6f6f6;
+    padding-top: 50px;
+}
+.center{
+    position: relative;
+    width: 748px;
+    height: 480px;
+    border-top: 3px solid #f36e11;
+    margin: 0 auto;
+    background-color: white;
+}
+.center .right{
+    position: absolute;
+    right: 160px;
+    top: 40px;
+    width: 400px;
+    height: 355px;
+    /* background-color: rgb(221, 143, 143); */
+}
+.center p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+}
+.form{
+    position: relative;
+}
+.form .b1{
+    display: inline-block;
+    width: 36px;
+    height: 26px;
+    color:#f26b11 ;
+    border: 1px solid #f26b11;
+    border-right: none;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 12px;
+
+}
+.form .in1{
+    width: 330px;
+    height: 36px;
+    border: 1px solid #f26b11;
+    font-size: 12px;
+    color: #999999;
+    padding-left: 10px;
+    margin-bottom: 3px;
+    outline: none;
+}
+
+.form .b2{
+    border: 1px solid #bfbfbf;
+    border-right: none;
+    color:#bfbfbf ;
+    background-color: #f6f6f6;
+}
+.form .in2{
+    border: 1px solid #bfbfbf;
+    outline: none;
+}
+.form img{
+    /* width: 72px; */
+    /* height: 36px; */
+    margin-top: 18px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.form .yanzhengma{
+    width: 208px;
+    height: 36px;
+    border: 1px solid #bfbfbf;
+    margin-top: 18px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #969696;
+    outline: none;
+    /* background: yellow; */
+}
+.form .em{
+    position: absolute;
+    bottom: 110px;
+    right: 50px;
+    display: inline-block;
+    /* background: pink; */
+    font-style: normal;
+    height: 36px;
+    width: auto;
+    line-height: 36px;
+    color: #666666;
+    font-size: 14px;
+    cursor: pointer;
+}
+.form button{
+    width: 380px;
+    height: 38px;
+    margin-top: 25px;
+    background-color: #f26b11;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.form .s1{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #ef5800;
+}
+.select{
+    width: 376px;
+    height: 54px; 
+    text-align: center;
+}
+.select .s{
+  font-size: 12px;
+}
+.select .ss1{
+    color: #313131;
+}
+.select .ss2{
+   color: #dc6b1f;
+   margin-left: 10px;
+}
+/* 页脚部分开始 */
+ .copyright{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+}
+.copyright p{
+    text-align: center;
+   font-size:12px ;
+   color: #696969;
+   line-height: 25px;
+}
+.copyright .p1{
+    /* margin-top: 25px; */
+    padding-top: 25px;
+ }

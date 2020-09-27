@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面</title>
+    <base target="_blank">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="box">
+        <!-- 页面logo开始 -->
+            <div class="logo clearfix">
+                 <a href="#" title="小u商城，正品低价，品质保证" class="fl">小u商城</a>
+                 <span class="fl"></span><b class="fl">欢迎登录</b>
+           </div>
+        <!-- 页面logo结束 -->
+        <!-- 页面中心登录开始 -->
+        <div class="center">
+            <div class="right">
+                <p>登录</p>
+            <div class="form">
+                <b class="iconfont b1">&#xe7eb;</b><input type="text" placeholder="手机号/会员名/邮箱" class="in1" name="uname">
+                <br>
+                <b class="iconfont b1 b2">&#xe608;</b><input type="password" placeholder="密码" class="in1 in2" name="pwd">
+                <br>
+                <input type="text" placeholder="验证码" class="yanzhengma" name="code"><img src="http://localhost:3002/user/captcha" alt="验证码" id="yanzheng" >
+                <br>
+                <button value="登录" class="btn">登录</button>
+                <div class="le_ri clearfix">
+                    <input type="checkbox" checked class="in5 fl"><b class="b3" >自动登录</b> 
+                    <a href="#"><b class="b3 fr">忘记密码？</b></a>
+                </div>
+            
+            </div>
+            <div class="select">
+                <div class="select_le fl">
+                    <span class="s1"></span><b>QQ</b><span class="s2"></span><b>微博</b><span class="s3"></span><b>微信</b>
+                </div>
+                <div class="select_ri fr"><span class="liji">立即注册</span> </div>
+            </div>
+            </div>
+        </div>
+        <!-- 页面中心登录结束 -->
+        <!-- 页脚部分开始 -->
+        <div class="copyright">
+            <p class="p1">Copyright&copy;2010-2016 小u商城 版权所有 保留一切权利</p>
+            <p>京ICP备10218183号 京ICP证161188号 京公网安备 11010802020593号 出版物经营许可证新出发京批字第直130052号</p>
+        </div>
+        <!-- 页脚部分结束 -->
+    </div>
+
+
+    <script src="js/JQuery.js"></script>
+    <script src="./js/ajax.js"></script>
+    <script src="./js/art-template.js"></script>
+     <script src="./js/login.js"></script>
+
+
+</body>
+</html>

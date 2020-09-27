@@ -1,0 +1,59 @@
+/*清除页面元素默认样式*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body,p,h1,h2,h3,h4,h5,h6,ol,ul,dl{
+	margin: 0;
+}
+ol,ul,dd{
+	padding: 0;
+} */
+ol,ul{
+	/*取消列表元素前面的原点*/
+	list-style: none;
+}
+mark{
+    background-color: none;
+}
+b,
+strong{
+    /*根据实际来清楚默认样式*/
+    font-weight: normal
+}
+i,
+em{ 
+    /*可根据实际来设置 */
+    font-style: normal；
+}
+a{
+	/*去掉a标签的下划线*/
+    text-decoration: none;
+    color: #333/* 颜色可根据实际设置 */
+}
+
+img{ /*容器有边框时的样式重置 */
+    vertical-align: top;
+	border: none;/*非标准的IE中，图片超链接中的图片默认会显示边框*/
+}
+button, input, textarea {
+    background: none;
+    border: none;
+    font-family: inherit;
+    vertical-align: middle;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
